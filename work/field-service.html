@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Field service platform: designing from 0 to 1 when phones were banned on site | Sudarshan Sahu</title>
+<meta name="description" content="One system for the engineers who fix chip-making tools and the managers who send them, rebuilt when the rules changed.">
+<meta name="robots" content="noindex">
+<script>if("scrollRestoration"in history)history.scrollRestoration="manual";if(!location.hash)addEventListener("pageshow",function(){scrollTo(0,0)})</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400&family=Roboto+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap topin">
+<a class="brand" href="../index.html">Sudarshan Sahu</a>
+<nav aria-label="Main"><a href="../index.html#work">Work</a><a href="../about.html">About</a><a class="navcta" href="mailto:sahu.sudarsan@gmail.com">Let's talk</a></nav>
+</div></header>
+<main id="main" class="cmain" data-s="field-service" style="--case:#2B68B3"><div class="bar" id="bar"></div>
+<div class="band-case"><div class="wrap chead"><p class="pill">Field service management · 0 to 1</p><h1>Automate all field service activities in semiconductor fabs: schedule preventive maintenance automatically, speed up service work and improve first-time-fix rates.</h1><dl class="meta"><div><dt>Role</dt><dd>Only product designer, end to end</dd></div><div><dt>Company</dt><dd>Global semiconductor equipment maker</dd></div><div><dt>Team</dt><dd>PM, business analyst, engineers, field teams</dd></div></dl></div></div>
+<div class="wrap herofig"><div class="frame"><i></i><img src="../assets/img/field-hero.webp" alt="Manager dashboard and phone app"></div></div>
+<div class="wrap facts"><div><b>~20%</b><span>faster service case closure</span></div><div><b>~2 hrs</b><span>saved per incident with the assistant</span></div><div><b>10 to 1</b><span>dashboards for each manager</span></div></div>
+<section class="introw"><div class="wrap"><p class="mono">Context</p><p>Field engineers fix chip-making tools inside customer fabs, and managers track the tools and send the right engineer. When a tool is down, the fab loses money every hour. I worked on this product across two periods as the only designer. It started with a dashboard and an app. Then phones were banned in the fab, and my app stopped working. Each phase below came from a real-world problem.</p></div></section>
+<div class="wrap cs">
+<section><header class="ch"><p class="mono">The problem</p><h2>Engineers had to walk out to do their work</h2></header>
+<div class="tbl"><table><thead><tr><th scope="col">What I found</th><th scope="col">What it meant</th></tr></thead><tbody><tr><td data-l="What I found">No app for service work</td><td data-l="What it meant">No way to see to-dos, part status or history</td></tr><tr><td data-l="What I found">Cannot create or track a case inside</td><td data-l="What it meant">Walk out, then call or open a laptop</td></tr><tr><td data-l="What I found">10 dashboards for one manager</td><td data-l="What it meant">No single picture of tools or people</td></tr><tr><td data-l="What I found">No help to fix the issue fast</td><td data-l="What it meant">Manuals meant walking out again</td></tr></tbody></table></div>
+</section>
+<section><header class="ch"><p class="mono">The journey</p><h2>Five phases of the product</h2></header>
+<div class="diagram"><ol class="steps"><li><b>Dashboard</b><span>10 reports became 1 view</span></li><li><b>Mobile app</b><span>Log and track cases</span></li><li><b>Tablet</b><span>Phones banned, no internet</span></li><li><b>Knowledge Assist</b><span>Find the problem, get the fix</span></li><li><b>AR and VR</b><span>Training authored once</span></li></ol></div>
+</section>
+<section><header class="ch"><p class="mono">Phase 1</p><h2>The manager dashboard</h2></header>
+<article class="cl"><div class="clt"><h3>I first went inside the fab to understand the work</h3><p>Engineers can't take a laptop inside. So for almost every small task, they walked out and called the call centre. I understood this only when I saw it myself.</p></div></article>
+<article class="cl"><div class="clt"><h3>Managers had 10 dashboards, so I designed one</h3><p>They moved across many reports to get one summary. I designed one dashboard, and each manager can pick their own KPIs. Stakeholders were getting stuck on wireframes, so I showed them visual drafts and the discussion moved forward.</p><p class="out">Now the first screen shows what is important for that manager.</p></div><figure class="shot "><a href="../assets/img/field-dash1.webp" target="_blank" rel="noopener" aria-label="Open larger image: Manager dashboard with KPI cards and charts"><img src="../assets/img/field-dash1.webp" alt="Manager dashboard with KPI cards and charts" loading="lazy"></a><figcaption>One dashboard with personal KPIs.</figcaption></figure>
+<details class="more in"><summary>See 1 more screen</summary><div class="morein"><figure class="shot "><a href="../assets/img/field-dash4.webp" target="_blank" rel="noopener" aria-label="Open larger image: Team view with people cards"><img src="../assets/img/field-dash4.webp" alt="Team view with people cards" loading="lazy"></a><figcaption>Team view: skills and availability.</figcaption></figure>
+</div></details>
+</article>
+</section>
+<section><header class="ch"><p class="mono">Phase 2</p><h2>The mobile app</h2></header>
+<article class="cl"><div class="clt"><h3>We looked at buying a tool, but nothing fit our need, so we built our own</h3><p>Our engineers work at customer sites, and the tools on the market did not work that way. So we built our own app on top of our CRM. It was much more work, but it fit how they work.</p><p class="out">Service cases closed about 20% faster.</p></div><figure class="shot "><a href="../assets/img/field-mobile.webp" target="_blank" rel="noopener" aria-label="Open larger image: Three mobile app screens"><img src="../assets/img/field-mobile.webp" alt="Three mobile app screens" loading="lazy"></a><figcaption>The first mobile app.</figcaption></figure>
+</article>
+<article class="cl"><div class="clt"><h3>I designed too many features</h3><p>The chatbot and peer chat were never built. Today I would ship a smaller first version.</p></div></article>
+</section>
+<section><header class="ch"><p class="mono">Phase 3 · The direction change</p><h2>The tablet</h2></header>
+<article class="cl"><div class="clt"><h3>Phones were banned in the fab, and my app stopped working</h3><p>The app was used for about two years. Then new rules came, with no phones in the fab and no internet. I did not try to save the app. I made a tablet mockup in 3 days. The tablet talks to a middleware server at the customer site, and the customer decides how much data we can pull out.</p><p class="out">We got less data, but engineers could work inside the fab again.</p></div><figure class="shot "><a href="../assets/img/field-home.webp" target="_blank" rel="noopener" aria-label="Open larger image: Tablet home with pending tasks, alerts and training"><img src="../assets/img/field-home.webp" alt="Tablet home with pending tasks, alerts and training" loading="lazy"></a><figcaption>Tablet home: tasks, parts, alerts and training in one view.</figcaption></figure>
+</article>
+</section>
+<section><header class="ch"><p class="mono">Phase 4</p><h2>Knowledge Assist</h2></header>
+<article class="cl"><div class="clt"><h3>Parts were the real headache</h3><p>Finding the real problem was hard. Then the part might be in a nearby store, or in another country. So I put everything in one flow on the tablet: find the problem, get the fix, order the part and track it.</p><p class="out">Now the engineer can finish the job inside the fab.</p></div></article>
+<article class="cl"><div class="clt"><h3>The problem shows on the machine itself</h3><p>The engineer picks the tool, the symptoms and the assemblies. The tool map shows the problem chamber, so it is easy to see where the issue is.</p></div><figure class="shot "><a href="../assets/img/field-chamber.webp" target="_blank" rel="noopener" aria-label="Open larger image: Service case form beside a tool map with one chamber marked in red"><img src="../assets/img/field-chamber.webp" alt="Service case form beside a tool map with one chamber marked in red" loading="lazy"></a><figcaption>The tool map shows the problem chamber.</figcaption></figure>
+</article>
+<article class="cl"><div class="clt"><h3>The system suggests, and the engineer decides</h3><p>The system suggests the action and the parts. The problem flow stays on the screen, so the engineer can check how it reached the answer. If an option is missing, they can type their own.</p><p class="out">Engineers found the ML-based fix quickly, and saved about 2 hours per incident.</p></div><figure class="shot "><a href="../assets/img/field-rec.webp" target="_blank" rel="noopener" aria-label="Open larger image: Recommended parts list beside the problem flow"><img src="../assets/img/field-rec.webp" alt="Recommended parts list beside the problem flow" loading="lazy"></a><figcaption>The parts list, with the problem flow beside it.</figcaption></figure>
+</article>
+<p class="note">The tablet shipped. I left before wider results were measured, so about 2 hours per incident is the one number I have from this phase.</p>
+</section>
+<section><header class="ch"><p class="mono">Phase 5</p><h2>AR and VR training</h2></header>
+<article class="cl"><div class="clt"><h3>Experts create a procedure once, so they do not need to travel</h3><p>Every new procedure meant someone flying out, and practice meant stopping a machine. Now an expert builds a procedure once, and engineers learn it in VR and follow it in AR. My part was the interface layer, not the 3D engine.</p></div><figure class="shot "><a href="../assets/img/field-ar.webp" target="_blank" rel="noopener" aria-label="Open larger image: Authoring tool with a timeline"><img src="../assets/img/field-ar.webp" alt="Authoring tool with a timeline" loading="lazy"></a><figcaption>Experts set each step on a timeline.</figcaption></figure>
+</article>
+</section>
+<section><header class="ch"><p class="mono">The research behind it</p><h2>What I saw in the fab</h2></header>
+<div class="dg"><div class="dgh"><p class="mono">UX diagram 1</p><h3>Two users, one system</h3><p>Service engineers and service managers need very different things from the same data.</p></div><figure class="shot "><a href="../assets/img/field-persona.webp" target="_blank" rel="noopener" aria-label="Open larger image: Two personas, a service engineer and a service manager"><img src="../assets/img/field-persona.webp" alt="Two personas, a service engineer and a service manager" loading="lazy"></a></figure>
+</div>
+<div class="dg"><div class="dgh"><p class="mono">UX diagram 2</p><h3>A day in the life</h3><p>The low points of the day were all the same moment: stepping out to call for a part, log a case or look up a fix.</p></div><figure class="shot "><a href="../assets/img/field-journey.webp" target="_blank" rel="noopener" aria-label="Open larger image: Journey map of a field engineer day"><img src="../assets/img/field-journey.webp" alt="Journey map of a field engineer day" loading="lazy"></a></figure>
+</div>
+<div class="dg"><div class="dgh"><p class="mono">UX diagram 3</p><h3>What we agreed to build first</h3><p>With the business team I agreed 7 success factors, and we sorted every feature with MoSCoW.</p></div><figure class="shot "><a href="../assets/img/field-moscow.webp" target="_blank" rel="noopener" aria-label="Open larger image: Feature backlog sorted into must, should, can and will not have"><img src="../assets/img/field-moscow.webp" alt="Feature backlog sorted into must, should, can and will not have" loading="lazy"></a></figure>
+</div>
+<details class="more in"><summary>See 2 paper sketches</summary><div class="morein"><figure class="shot "><a href="../assets/img/field-sk1.webp" target="_blank" rel="noopener" aria-label="Open larger image: Paper sketches of mobile flows"><img src="../assets/img/field-sk1.webp" alt="Paper sketches of mobile flows" loading="lazy"></a><figcaption>Sketches reviewed with engineers.</figcaption></figure>
+<figure class="shot "><a href="../assets/img/field-sk2.webp" target="_blank" rel="noopener" aria-label="Open larger image: More paper sketches"><img src="../assets/img/field-sk2.webp" alt="More paper sketches" loading="lazy"></a><figcaption>Quick paper tests before any screen.</figcaption></figure>
+</div></details>
+</section>
+<section><header class="ch"><p class="mono">The result</p><h2>Faster fixes, and one source of truth</h2></header>
+<div class="nums"><div><b>~20%</b><span>faster service case closure</span></div><div><b>~2 hrs</b><span>saved per incident with the assistant</span></div><div><b>~6%</b><span>less time on parts order and return</span></div><div><b>10 to 1</b><span>dashboards for each manager</span></div></div>
+<p>Thousands of field engineers use this work every day. These results were measured by the product and business teams, and many teams made this happen.</p>
+<div class="lesson today"><p class="mono">If I built this today · An idea, not shipped work</p><p class="ct">The AI should stay on the customer site.</p><p>The assistant would run on the on-site server and explain in plain words why it suggests a fix. The engineer would confirm every step.</p></div>
+<div class="lesson"><p class="mono">What I learned</p><p class="ct">The real-world limits shaped this product.</p><p>Go where the work happens, design less and ship it well, and learn the site rules before choosing a device.</p></div>
+</section>
+<a class="nextl" href="enterprise-email.html">Next case study: Enterprise email suite <span aria-hidden="true">→</span></a>
+</div></main>
+<footer class="foot"><div class="wrap footin">
+<div><h2>Hiring a principal, staff or lead product designer?</h2>
+<p>Tell me about the role and the product, and we can set up a call.</p>
+<p class="contact"><a class="btn" href="mailto:sahu.sudarsan@gmail.com">sahu.sudarsan@gmail.com</a><a class="btn ghost" href="https://www.linkedin.com/in/sudarshansahu" target="_blank" rel="noopener">LinkedIn</a></p></div>
+<div><p class="legal"><b>Disclaimer:</b> Company names, logos, client names and sensitive data are removed or hidden in this work. New screens use dummy content. Results are shared to explain my thinking, and many teams made them happen. This site does not speak for any employer.</p><p class="legal">The content, storytelling and design are my own. This website was built with AI.</p></div>
+</div></footer>
+<dialog id="lb" aria-label="Larger image"><button type="button" aria-label="Close">Close</button><img alt=""></dialog>
+<script src="../assets/site.js" defer></script>
+</body></html>
